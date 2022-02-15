@@ -13,4 +13,9 @@ class FindSetCountBWTest {
         assertEquals(1, findSetCountBW.findSetBits(4));
     }
 
+    public void testFindSetBits2(){
+        FindSetCountBW findSetCountBW = new FindSetCountBW();
+        assertEquals(2, findSetCountBW.findSetBits2(3));
+        assertEquals(1, findSetCountBW.findSetBits2(4));
+    }
 }

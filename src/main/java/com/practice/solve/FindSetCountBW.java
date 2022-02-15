@@ -15,4 +15,13 @@ public class FindSetCountBW {
         }
         return result;
     }
+
+    public int findSetBits2(int input){
+        int result = 0;
+        while(input != 0){
+            input &= (input-1);
+            result++;
+        }
+        return result;
+    }
 }
